@@ -1,6 +1,6 @@
 # PlexRedirect
 a Plex landing page that redirects you to various sites.
-![alt tag](https://imgur.com/7EeGslS)
+![alt tag](https://i.imgur.com/7EeGslS.png)
 Blank spaces are where your server name goes. If you don't have a server name you can replace it with whatever you want.
 
 ## Features:
