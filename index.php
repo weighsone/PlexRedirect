@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="shortcut icon" type="image/x-icon" href="plexlanding.ico" />`
+    <link rel="icon" href="plexlanding.ico" type="image/x-icon">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <div class="container" id="link-bar">
+    <div class="container" id="redirectors">
 		<div class="row mt centered">
 			<div class="col-lg-6">
 				<a href="https://app.plex.tv/desktop" target="_top">

@@ -67,6 +67,11 @@ hr.dash {
 	}
 }
 
+/* Images */
+.media-poster {
+	width:100%;
+}
+
 /* Links */
 a {
     color: #f2f2f2;

@@ -26,8 +26,8 @@
 			{
 				?>
 				<div class = "col-lg-2">
-					<img class="rounded mx-auto d-block" src="<?php echo $plexpy_addr; ?>/pms_image_proxy?img=<?php echo $posterURL; ?>" width="100%"/>
-					<p style="font-size:80%;"><?php echo $output_tlt;?>&nbsp<?php echo $output_year;?></p>
+					<img alt="<?php echo $output_tlt;?> Movie poster" class="rounded mx-auto d-block" src="<?php echo $plexpy_addr; ?>/pms_image_proxy?img=<?php echo $posterURL; ?>" />
+					<p style="font-size:80%;"><?php echo $output_tlt;?>&nbsp;<?php echo $output_year;?></p>
 				</div>
 				<?php
 
