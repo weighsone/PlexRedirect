@@ -25,7 +25,7 @@
 
 		?>
 		<div class = "col-lg-2">
-			<img alt="<?php echo $output_tlt;?> TV Show poster" class="rounded mx-auto d-block" src="<?php echo $plexpy_addr; ?>/pms_image_proxy?img=<?php echo $posterURL; ?>" />
+			<img alt="<?php echo $output_tlt;?> TV Show poster" class="rounded mx-auto d-block media-poster" src="<?php echo $plexpy_addr; ?>/pms_image_proxy?img=<?php echo $posterURL; ?>" />
 			<p class="border-bottom" style="font-size:80%;margin-bottom:0px;"><?php echo $output_tlt;?></p><p style="font-size:80%;"><?php echo $output_ep_tlt?></p>
 		</div>
 		<?php	} //end loop	?>
