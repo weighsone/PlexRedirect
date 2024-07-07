@@ -28,12 +28,18 @@ h3 {
 }
 
 h4 {
-	color: #95a5a6;
+	margin-top: 12px;
+  color: #95a5a6;
 	font-weight: 400;
 	font-size: 30px;
 }
 
 /* Paragraph & Typographic */
+.item {
+  font-size: 90%;
+}
+
+
 p {
     line-height: 28px;
     margin-bottom: 25px;
@@ -47,6 +53,7 @@ p {
 
 hr.dash {
   border-top: 1px dashed #8c8b8b;
+  opacity: 1;
 }
 
 @media (max-width: 767px) {
@@ -70,13 +77,23 @@ hr.dash {
 /* Images */
 .media-poster {
 	width:100%;
+	box-shadow: 5px 10px 20px red inset;
+}
+
+.overlay:hover {
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0.3;
+transition: .3s ease;
 }
 
 /* Links */
 a {
     color: #f2f2f2;
     word-wrap: break-word;
-
+    text-decoration: none;
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -139,7 +156,6 @@ i {
 	margin: 8px;
 	color: #3498db; 
 }
-
 
 /* HeaderWrap */
 #headerwrap {
